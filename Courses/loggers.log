@@ -1,0 +1,237 @@
+2023-10-17T10:14:30.995+05:30  WARN 2644 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h22m44s243ms761µs400ns).
+2023-10-17T15:38:13.536+05:30  INFO 19152 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 19152 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T15:38:13.539+05:30  INFO 19152 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T15:38:14.491+05:30  INFO 19152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T15:38:14.609+05:30  INFO 19152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2023-10-17T15:38:15.527+05:30  INFO 19152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T15:38:15.543+05:30  INFO 19152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T15:38:15.543+05:30  INFO 19152 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T15:38:15.796+05:30  INFO 19152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T15:38:15.797+05:30  INFO 19152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2179 ms
+2023-10-17T15:38:16.197+05:30  INFO 19152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T15:38:16.327+05:30  INFO 19152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T15:38:16.332+05:30  INFO 19152 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T15:38:16.571+05:30  INFO 19152 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T15:38:16.728+05:30  INFO 19152 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T15:38:16.752+05:30  INFO 19152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T15:38:17.214+05:30  INFO 19152 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@745926c3
+2023-10-17T15:38:17.218+05:30  INFO 19152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T15:38:17.312+05:30  WARN 19152 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T15:38:17.612+05:30  INFO 19152 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T15:38:18.365+05:30  INFO 19152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T15:38:18.430+05:30  INFO 19152 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T15:38:18.941+05:30  WARN 19152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T15:38:19.626+05:30  INFO 19152 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ebbbe20, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@279e85eb, org.springframework.security.web.context.SecurityContextHolderFilter@7a482b3a, org.springframework.security.web.header.HeaderWriterFilter@46ab8e4b, org.springframework.security.web.csrf.CsrfFilter@260ccf0, org.springframework.security.web.authentication.logout.LogoutFilter@743f58c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@750adad8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3da6950f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4cb59398, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@423d662a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@129348e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@89178b4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22cf1808, org.springframework.security.web.access.ExceptionTranslationFilter@6e111aeb, org.springframework.security.web.access.intercept.AuthorizationFilter@55731ccd]
+2023-10-17T15:38:19.730+05:30  INFO 19152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T15:38:19.744+05:30  INFO 19152 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 6.816 seconds (process running for 7.426)
+2023-10-17T15:38:41.519+05:30  INFO 19152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T15:38:41.520+05:30  INFO 19152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T15:38:41.523+05:30  INFO 19152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-17T15:38:48.672+05:30 ERROR 19152 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:38:48.983+05:30 ERROR 19152 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:39:01.619+05:30 ERROR 19152 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: start
+2023-10-17T15:39:01.645+05:30 ERROR 19152 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: end
+2023-10-17T15:39:08.306+05:30 ERROR 19152 --- [http-nio-8080-exec-1] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:39:08.316+05:30 ERROR 19152 --- [http-nio-8080-exec-1] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:57:42.181+05:30  INFO 24728 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 24728 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T15:57:42.184+05:30  INFO 24728 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T15:57:43.594+05:30  INFO 24728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T15:57:43.715+05:30  INFO 24728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 1 JPA repository interfaces.
+2023-10-17T15:57:45.073+05:30  INFO 24728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T15:57:45.099+05:30  INFO 24728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T15:57:45.099+05:30  INFO 24728 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T15:57:45.401+05:30  INFO 24728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T15:57:45.402+05:30  INFO 24728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3118 ms
+2023-10-17T15:57:45.773+05:30  INFO 24728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T15:57:45.960+05:30  INFO 24728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T15:57:45.967+05:30  INFO 24728 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T15:57:46.292+05:30  INFO 24728 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T15:57:46.515+05:30  INFO 24728 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T15:57:46.546+05:30  INFO 24728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T15:57:47.130+05:30  INFO 24728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e521067
+2023-10-17T15:57:47.137+05:30  INFO 24728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T15:57:47.299+05:30  WARN 24728 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T15:57:47.760+05:30  INFO 24728 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T15:57:48.795+05:30  INFO 24728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T15:57:48.870+05:30  INFO 24728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T15:57:49.386+05:30  WARN 24728 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T15:57:49.960+05:30  INFO 24728 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@118879d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1239c268, org.springframework.security.web.context.SecurityContextHolderFilter@1f847d9e, org.springframework.security.web.header.HeaderWriterFilter@402c415e, org.springframework.security.web.csrf.CsrfFilter@6aaf1ce8, org.springframework.security.web.authentication.logout.LogoutFilter@6b468710, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10f384a2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1693d505, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4bec6682, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@576a8b00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6265a548, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67730dab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d97344c, org.springframework.security.web.access.ExceptionTranslationFilter@4a977146, org.springframework.security.web.access.intercept.AuthorizationFilter@8de4206]
+2023-10-17T15:57:50.642+05:30  INFO 24728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T15:57:50.658+05:30  INFO 24728 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 9.245 seconds (process running for 10.192)
+2023-10-17T15:58:16.234+05:30  INFO 24728 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T15:58:16.236+05:30  INFO 24728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T15:58:16.241+05:30  INFO 24728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-10-17T15:58:16.440+05:30  WARN 24728 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+2023-10-17T15:58:24.381+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:58:24.914+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:58:29.980+05:30 ERROR 24728 --- [http-nio-8080-exec-4] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:58:29.999+05:30 ERROR 24728 --- [http-nio-8080-exec-4] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:58:38.963+05:30 ERROR 24728 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: start
+2023-10-17T15:58:39.026+05:30 ERROR 24728 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: end
+2023-10-17T15:58:41.230+05:30 ERROR 24728 --- [http-nio-8080-exec-8] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:58:41.251+05:30 ERROR 24728 --- [http-nio-8080-exec-8] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:58:41.926+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:58:41.943+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T15:59:07.468+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T15:59:07.490+05:30 ERROR 24728 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:07:50.616+05:30  INFO 5308 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 5308 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T16:07:50.621+05:30  INFO 5308 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T16:07:52.506+05:30  INFO 5308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T16:07:52.822+05:30  INFO 5308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 JPA repository interfaces.
+2023-10-17T16:07:55.723+05:30  INFO 5308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T16:07:55.771+05:30  INFO 5308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T16:07:55.772+05:30  INFO 5308 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T16:07:56.190+05:30  INFO 5308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T16:07:56.191+05:30  INFO 5308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5459 ms
+2023-10-17T16:07:56.872+05:30  INFO 5308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T16:07:57.121+05:30  INFO 5308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T16:07:57.126+05:30  INFO 5308 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T16:07:57.811+05:30  INFO 5308 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T16:07:58.420+05:30  INFO 5308 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T16:07:58.553+05:30  INFO 5308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T16:08:00.312+05:30  INFO 5308 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18b40fe6
+2023-10-17T16:08:00.319+05:30  INFO 5308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T16:08:00.494+05:30  WARN 5308 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T16:08:01.515+05:30  INFO 5308 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T16:08:03.950+05:30  INFO 5308 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T16:08:04.147+05:30  INFO 5308 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T16:08:05.196+05:30  WARN 5308 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T16:08:06.175+05:30  INFO 5308 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5add7380, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e638553, org.springframework.security.web.context.SecurityContextHolderFilter@232be28d, org.springframework.security.web.header.HeaderWriterFilter@7a6b214c, org.springframework.security.web.authentication.logout.LogoutFilter@3c62c81f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4505015b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@74d3b331, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1c25385a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e53bb4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@188058fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75d0cac6, org.springframework.security.web.access.ExceptionTranslationFilter@6ee07d7f, org.springframework.security.web.access.intercept.AuthorizationFilter@6c92a59d]
+2023-10-17T16:08:06.574+05:30  INFO 5308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T16:08:06.589+05:30  INFO 5308 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 16.677 seconds (process running for 17.353)
+2023-10-17T16:08:22.739+05:30  INFO 5308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T16:08:22.742+05:30  INFO 5308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T16:08:22.747+05:30  INFO 5308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-10-17T16:08:57.200+05:30 ERROR 5308 --- [http-nio-8080-exec-4] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:08:57.493+05:30 ERROR 5308 --- [http-nio-8080-exec-4] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:09:12.578+05:30 ERROR 5308 --- [http-nio-8080-exec-2] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: start
+2023-10-17T16:09:12.615+05:30 ERROR 5308 --- [http-nio-8080-exec-2] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: end
+2023-10-17T16:11:45.963+05:30 ERROR 5308 --- [http-nio-8080-exec-9] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:11:45.980+05:30 ERROR 5308 --- [http-nio-8080-exec-9] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:11:48.356+05:30 ERROR 5308 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:11:48.368+05:30 ERROR 5308 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:11:49.759+05:30 ERROR 5308 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:11:49.778+05:30 ERROR 5308 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:11:53.474+05:30 ERROR 5308 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:11:53.488+05:30 ERROR 5308 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:12:17.757+05:30 ERROR 5308 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:12:17.771+05:30 ERROR 5308 --- [http-nio-8080-exec-6] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T16:16:59.764+05:30  INFO 27628 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 27628 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T16:16:59.775+05:30  INFO 27628 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T16:17:02.340+05:30  INFO 27628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T16:17:02.726+05:30  INFO 27628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 333 ms. Found 1 JPA repository interfaces.
+2023-10-17T16:17:04.745+05:30  INFO 27628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T16:17:04.767+05:30  INFO 27628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T16:17:04.768+05:30  INFO 27628 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T16:17:05.147+05:30  INFO 27628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T16:17:05.148+05:30  INFO 27628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5098 ms
+2023-10-17T16:17:05.632+05:30  INFO 27628 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T16:17:05.830+05:30  INFO 27628 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T16:17:05.836+05:30  INFO 27628 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T16:17:06.280+05:30  INFO 27628 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T16:17:06.604+05:30  INFO 27628 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T16:17:06.647+05:30  INFO 27628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T16:17:07.550+05:30  INFO 27628 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2109a691
+2023-10-17T16:17:07.553+05:30  INFO 27628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T16:17:07.714+05:30  WARN 27628 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T16:17:08.448+05:30  INFO 27628 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T16:17:09.951+05:30  INFO 27628 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T16:17:10.114+05:30  INFO 27628 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T16:17:11.206+05:30  WARN 27628 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T16:17:12.889+05:30  INFO 27628 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9c40f43, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cac0334, org.springframework.security.web.context.SecurityContextHolderFilter@1952ad9d, org.springframework.security.web.header.HeaderWriterFilter@4d24ab25, org.springframework.security.web.authentication.logout.LogoutFilter@40696fc6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a4d57b7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e53bb4f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6329a5b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d884a19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a6b214c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c92a59d, org.springframework.security.web.access.ExceptionTranslationFilter@53a3fc8b, org.springframework.security.web.access.intercept.AuthorizationFilter@3c62c81f]
+2023-10-17T16:17:13.718+05:30  INFO 27628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T16:17:13.759+05:30  INFO 27628 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 15.631 seconds (process running for 18.175)
+2023-10-17T16:28:50.872+05:30  INFO 27628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T16:28:50.872+05:30  INFO 27628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T16:28:50.877+05:30  INFO 27628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-17T16:29:22.497+05:30 ERROR 27628 --- [http-nio-8080-exec-7] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T16:29:23.009+05:30 ERROR 27628 --- [http-nio-8080-exec-7] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T17:38:11.955+05:30 ERROR 27628 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: start
+2023-10-17T17:38:12.174+05:30 ERROR 27628 --- [http-nio-8080-exec-10] com.vois.controller.CourseController     : Course Controller :: getCourses method called (list):: end
+2023-10-17T17:38:24.403+05:30 ERROR 27628 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: start
+2023-10-17T17:38:24.572+05:30 ERROR 27628 --- [http-nio-8080-exec-3] com.vois.controller.CourseController     : Course Controller :: getCourse method called (single) :: end
+2023-10-17T17:46:54.800+05:30  INFO 18200 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 18200 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T17:46:54.806+05:30  INFO 18200 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T17:46:56.275+05:30  INFO 18200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T17:46:56.397+05:30  INFO 18200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+2023-10-17T17:46:57.453+05:30  INFO 18200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T17:46:57.472+05:30  INFO 18200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T17:46:57.472+05:30  INFO 18200 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T17:46:57.696+05:30  INFO 18200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T17:46:57.697+05:30  INFO 18200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2816 ms
+2023-10-17T17:46:58.051+05:30  INFO 18200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T17:46:58.150+05:30  INFO 18200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T17:46:58.156+05:30  INFO 18200 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T17:46:58.564+05:30  INFO 18200 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:46:58.759+05:30  INFO 18200 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T17:46:58.781+05:30  INFO 18200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T17:46:59.311+05:30  INFO 18200 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7757a37f
+2023-10-17T17:46:59.315+05:30  INFO 18200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T17:46:59.409+05:30  WARN 18200 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T17:46:59.753+05:30  INFO 18200 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:47:00.705+05:30  INFO 18200 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T17:47:00.797+05:30  INFO 18200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T17:47:01.353+05:30  WARN 18200 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T17:47:02.096+05:30  INFO 18200 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a4d57b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a36ff0b, org.springframework.security.web.context.SecurityContextHolderFilter@53a3fc8b, org.springframework.security.web.header.HeaderWriterFilter@3adb4cc8, org.springframework.security.web.authentication.logout.LogoutFilter@345d641e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@553d828a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a6b214c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ecf784f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d24ab25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71c74011, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@344769b9, org.springframework.security.web.access.ExceptionTranslationFilter@72115c48, org.springframework.security.web.access.intercept.AuthorizationFilter@7f5a25e2]
+2023-10-17T17:47:02.440+05:30  INFO 18200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T17:47:02.457+05:30  INFO 18200 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 8.523 seconds (process running for 9.191)
+2023-10-17T17:47:15.384+05:30  INFO 18200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T17:47:15.386+05:30  INFO 18200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T17:47:15.392+05:30  INFO 18200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-10-17T17:47:15.652+05:30  WARN 18200 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+2023-10-17T17:53:45.974+05:30  INFO 24044 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 24044 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T17:53:45.980+05:30  INFO 24044 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T17:53:47.116+05:30  INFO 24044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T17:53:47.254+05:30  INFO 24044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2023-10-17T17:53:48.401+05:30  INFO 24044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T17:53:48.427+05:30  INFO 24044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T17:53:48.428+05:30  INFO 24044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T17:53:48.658+05:30  INFO 24044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T17:53:48.659+05:30  INFO 24044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2580 ms
+2023-10-17T17:53:48.990+05:30  INFO 24044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T17:53:49.111+05:30  INFO 24044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T17:53:49.118+05:30  INFO 24044 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T17:53:49.532+05:30  INFO 24044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:53:49.744+05:30  INFO 24044 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T17:53:49.769+05:30  INFO 24044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T17:53:50.291+05:30  INFO 24044 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f05b0c
+2023-10-17T17:53:50.296+05:30  INFO 24044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T17:53:50.390+05:30  WARN 24044 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T17:53:50.717+05:30  INFO 24044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:53:51.586+05:30  INFO 24044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T17:53:51.678+05:30  INFO 24044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T17:53:52.203+05:30  WARN 24044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T17:53:52.927+05:30  INFO 24044 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@755033c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@229c4d34, org.springframework.security.web.context.SecurityContextHolderFilter@73633230, org.springframework.security.web.header.HeaderWriterFilter@206e5183, org.springframework.security.web.authentication.logout.LogoutFilter@61c4fc34, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c678a1f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b3b2290, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5b49b1df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@215f8d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69d2c460, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@689eab53, org.springframework.security.web.access.ExceptionTranslationFilter@1372696b, org.springframework.security.web.access.intercept.AuthorizationFilter@29ddaa8e]
+2023-10-17T17:53:53.303+05:30  INFO 24044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T17:53:53.320+05:30  INFO 24044 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 8.086 seconds (process running for 8.884)
+2023-10-17T17:54:14.547+05:30  INFO 24044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T17:54:14.548+05:30  INFO 24044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T17:54:14.553+05:30  INFO 24044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-10-17T17:56:17.402+05:30  INFO 20116 --- [main] com.vois.CoursesApplication              : Starting CoursesApplication using Java 17.0.8.1 with PID 20116 (C:\Users\Raunak\Downloads\Courses\Courses\target\classes started by Rounak in C:\Users\Raunak\Downloads\Courses\Courses)
+2023-10-17T17:56:17.407+05:30  INFO 20116 --- [main] com.vois.CoursesApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T17:56:18.619+05:30  INFO 20116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T17:56:18.769+05:30  INFO 20116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interfaces.
+2023-10-17T17:56:20.002+05:30  INFO 20116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-17T17:56:20.024+05:30  INFO 20116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-17T17:56:20.025+05:30  INFO 20116 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-17T17:56:20.253+05:30  INFO 20116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-17T17:56:20.254+05:30  INFO 20116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2749 ms
+2023-10-17T17:56:20.667+05:30  INFO 20116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T17:56:20.766+05:30  INFO 20116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-17T17:56:20.770+05:30  INFO 20116 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T17:56:21.026+05:30  INFO 20116 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:56:21.241+05:30  INFO 20116 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T17:56:21.274+05:30  INFO 20116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-17T17:56:21.830+05:30  INFO 20116 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37bda983
+2023-10-17T17:56:21.835+05:30  INFO 20116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-17T17:56:21.931+05:30  WARN 20116 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-17T17:56:22.274+05:30  INFO 20116 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T17:56:23.036+05:30  INFO 20116 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T17:56:23.116+05:30  INFO 20116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T17:56:23.609+05:30  WARN 20116 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-17T17:56:24.337+05:30  INFO 20116 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@99f75e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b6ff016, org.springframework.security.web.context.SecurityContextHolderFilter@58189132, org.springframework.security.web.header.HeaderWriterFilter@6413eeb7, org.springframework.security.web.authentication.logout.LogoutFilter@727de450, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e564c78, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2e096ac0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5aefdb9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c15a6aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7dc963be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a491a60, org.springframework.security.web.access.ExceptionTranslationFilter@744199bb, org.springframework.security.web.access.intercept.AuthorizationFilter@2604940]
+2023-10-17T17:56:24.686+05:30  INFO 20116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-17T17:56:24.703+05:30  INFO 20116 --- [main] com.vois.CoursesApplication              : Started CoursesApplication in 8.032 seconds (process running for 8.833)
+2023-10-17T17:56:47.962+05:30  INFO 20116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-17T17:56:47.963+05:30  INFO 20116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-17T17:56:47.967+05:30  INFO 20116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
